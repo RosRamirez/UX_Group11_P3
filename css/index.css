@@ -1,8 +1,9 @@
-.logo {
-    float:left;
-    margin-top: 20px;
-    margin-left: 20px;
-} 
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    padding-right: 20px;
+    }
+
 .highlight-word {
     position: relative;
     z-index: 0;
@@ -11,6 +12,7 @@
   /* prevent the highlight from breaking since it is horizontal   */
     white-space: nowrap;
   }
+  
   .highlight-word:before {
       content: '';
       background: url(https://cdn2.hubspot.net/hubfs/1951809/text-highlight.png?t=1542708765973) no-repeat center center;
@@ -27,6 +29,10 @@
     background-color: #C9F0D5;
   }
 
+  .heroText {
+    padding: 7rem 0;
+ }
+
   .display-4 {
     font-family: 'Lexend', sans-serif;
     font-weight: 600;
@@ -40,6 +46,14 @@
     --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
   }
   
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+
+  .featuresTitle {
+    text-align: center;
+  }
 
   .card {
     font-family: 'Lexend', sans-serif;
@@ -48,6 +62,15 @@
     color: black;
     margin-bottom: 2rem;
   }
+
+  .card-img-top {
+    width: 6.25rem;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    margin-left: 1rem;
+  }
+
  .card-title {
     font-weight: 600;
  }
