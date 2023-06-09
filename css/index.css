@@ -1,0 +1,63 @@
+.logo {
+    float:left;
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+.highlight-word {
+    position: relative;
+    z-index: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+  /* prevent the highlight from breaking since it is horizontal   */
+    white-space: nowrap;
+  }
+  .highlight-word:before {
+      content: '';
+      background: url(https://cdn2.hubspot.net/hubfs/1951809/text-highlight.png?t=1542708765973) no-repeat center center;
+      background-size: 100% auto;
+      width: 108%;
+      height: 100%;
+      display: block;
+      position: absolute;
+      z-index: -1;
+      transform: translate(-3%,0);
+  }
+
+  .jumbotron {
+    background-color: #C9F0D5;
+  }
+
+  .display-4 {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+  }
+
+  .lead {
+    font-family: 'Lexend', sans-serif;
+  }
+
+  :root {
+    --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important;
+  }
+  
+
+  .card {
+    font-family: 'Lexend', sans-serif;
+    background: white;
+    border: 1px solid #91AC8C;
+    color: black;
+    margin-bottom: 2rem;
+  }
+ .card-title {
+    font-weight: 600;
+ }
+
+ .accessibilitygif {
+    display: flex;
+    align-items:center;
+ }
+
+ .accessibilitytitle {
+    font-family: 'Lexend', sans-serif;
+    font-size: xx-large;
+ }
