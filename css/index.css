@@ -53,12 +53,14 @@
 
   .featuresTitle {
     text-align: center;
+    font-weight: bold;
+    font-family: 'Lexend', sans-serif;
   }
 
   .card {
     font-family: 'Lexend', sans-serif;
     background: white;
-    border: 1px solid #91AC8C;
+    border: 2px solid #91AC8C;
     color: black;
     margin-bottom: 2rem;
   }
@@ -80,9 +82,22 @@
     align-items:center;
  }
 
+ .accessibilitygif img {
+  max-width: 50%;
+  height: auto;
+}
+
  .accessibilitytitle {
+  margin-right: 100px;
     font-family: 'Lexend', sans-serif;
     font-size: xx-large;
+    font-weight: bold;
+ }
+
+ .accessibilitytitle p {
+  font-family: 'Lexend', sans-serif;
+    font-size: large;
+    font-weight: normal;
  }
 
  .nav-item {
@@ -91,7 +106,7 @@
 
  .footer{
   background:#C9F0D5;
-  padding:30px 0px;
+  padding:10px 0px;
   font-family: 'Lexend', sans-serif;
   text-align:center;
   }
@@ -108,24 +123,28 @@
   text-decoration:none;
   color:gray;
   transition:0.5s;
+  margin-top: 0px;
   }
   
   .footer .row a:hover{
-  color:#fff;
+  color: black;
   }
   
   .footer .row ul{
     width:100%;
+    margin-top: 0px;
   }
   
   .footer .row ul li{
   display:inline-block;
   margin:0px 30px;
+  margin-top: 0px;
   }
   
   .footer .row a i{
   font-size:2em;
   margin:0% 1%;
+  margin-top: 0px;
   }
   
   @media (max-width:720px){
@@ -139,6 +158,12 @@
   text-align:left;
   }
   .footer a i{
+  margin-top: 0px;
   margin:0% 3%;
   }
+  }
+
+  .socials img{
+    margin-top: 0px;
+    margin: 20px;
   }
