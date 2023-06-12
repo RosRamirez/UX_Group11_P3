@@ -60,9 +60,19 @@
   .card {
     font-family: 'Lexend', sans-serif;
     background: white;
-    border: 2px solid #91AC8C;
+    border: 3px solid #91AC8C;
     color: black;
     margin-bottom: 2rem;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
+
+  .card-text {
+    padding-top:20px;
+  }
+  .card-title {
+    padding-top:10px;
   }
 
   .card-img-top {
@@ -117,6 +127,7 @@
   padding:0.6% 0%;
   color:gray;
   font-size:1em;
+  text-align: center;
   }
   
   .footer .row a{
@@ -174,11 +185,14 @@
     align-items:center;
     margin:auto;
   }
+
   .profileimg {
     margin-left: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 10px;
+    width: 50%;
+    height: auto;
   }
 
   .profilecontent {
@@ -188,14 +202,111 @@
     align-items:left;
     margin:auto;
   }
+
   .profilecontent h1 {
     font-family: 'Lexend', sans-serif;
     font-size: xx-large;
     font-weight: bold;
   }
+
   .profilecontent p {
     font-family: 'Lexend', sans-serif;
     font-size: large;
     font-weight: normal;
   }
 
+  .downloadbanner {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .downloadbannertext h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  .downloadbannertext p {
+    font-family: 'Lexend', sans-serif;
+    width: 50%;
+    font-size: normal;
+    font-weight: normal;
+  }
+
+  .downloadbannertext {
+    position: absolute;
+    text-align: left;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+  }
+
+  .footernew {
+    display: grid;
+    margin-top: 50px;
+    justify-items: center;
+    width: 100%;
+    grid-column:  1fr 2fr 3fr 1fr 1fr ;
+    grid-template-areas: ". logo links socialsnew .";
+    padding:5px;
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .links {
+    grid-area: links;
+  }
+
+  .links li {
+    display: inline-block;
+    transform: translateY(30%);
+    list-style: none;
+    margin-right: 40px;
+    font-family: Lexend, sans-serif;
+  }
+
+  .links a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    margin-top: 0px;
+    }
+    
+    .links a:hover{
+    color: black;
+    }
+
+  .socialsnew {
+    grid-area: socialsnew;
+  }
+
+  .socialsnew .insta {
+    max-width: 30%;
+    height: auto
+  }
+
+  .socialsnew .facebook {
+    max-width: 17%;
+    height: auto
+  }
+
+  .socialsnew .youtube {
+    max-width: 20%;
+    height: auto
+  }
+
+  .copyright {
+    font-family: Lexend, sans-serif;
+    text-align: center;
+  }
+
+  hr {
+    width:70%;
+    text-align: center;
+  }
