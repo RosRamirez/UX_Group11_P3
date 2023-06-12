@@ -88,7 +88,7 @@
 }
 
  .accessibilitytitle {
-  margin-right: 100px;
+    margin-right: 100px;
     font-family: 'Lexend', sans-serif;
     font-size: xx-large;
     font-weight: bold;
@@ -167,3 +167,35 @@
     margin-top: 0px;
     margin: 20px;
   }
+
+  .profile {
+    overflow: auto;
+    display:flex;
+    align-items:center;
+    margin:auto;
+  }
+  .profileimg {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .profilecontent {
+    padding:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    margin:auto;
+  }
+  .profilecontent h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  .profilecontent p {
+    font-family: 'Lexend', sans-serif;
+    font-size: large;
+    font-weight: normal;
+  }
+
